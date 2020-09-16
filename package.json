@@ -1,0 +1,44 @@
+{
+  "name": "passport-garmin",
+  "version": "1.0.0",
+  "description": "Garmin Passport Strategy",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riderize/passport-garmin.git"
+  },
+  "author": "Edilson Silva",
+  "license": "ISC",
+  "keywords": [
+    "passport",
+    "strava",
+    "auth",
+    "authentication"
+  ],
+  "bugs": {
+    "url": "https://github.com/Riderize/passport-garmin/issues"
+  },
+  "homepage": "https://github.com/Riderize/passport-garmin#readme",
+  "dependencies": {
+    "passport-oauth1": "^1.1.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
+    "@typescript-eslint/parser": "^4.1.1",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}

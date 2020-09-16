@@ -1,0 +1,20 @@
+{
+  "name": "passport-garmin-example",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "passport": "^0.4.1",
+    "passport-garmin": "file:.."
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
