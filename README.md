@@ -29,7 +29,7 @@ passport.use(new GarminStrategy({
     consumerSecret: GARMIN_CONSUMER_SECRET,
     callbackURL: "http://127.0.0.1:3000/auth/garmin/callback"
   },
-  function(accessToken, refreshToken, profile, done) {
+  function(token, tokenSecret, profile, done) {
     User.findOrCreate(..., function (err, user) {
       done(err, user);
     });
@@ -48,7 +48,7 @@ passport.use(new GarminStrategy({
     consumerSecret: GARMIN_CONSUMER_SECRET,
     callbackURL: "http://127.0.0.1:3000/auth/garmin/callback"
   },
-  function(accessToken, refreshToken, profile, done) {
+  function(token, tokenSecret, profile, done) {
     User.findOrCreate(..., function (err, user) {
       done(err, user);
     });
