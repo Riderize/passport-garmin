@@ -9,7 +9,7 @@ This lib aims to make it easier the Garmin authentication with Nodejs apps. By p
 ## Install
 
 ```
-$ npm i passport-garmin
+$ npm i @riderize/passport-garmin
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ In order to obtain a Consumer Key and Consumer Secret first you have to request 
 
 **Basic config:**
 ```
-const GarminStrategy = require('passport-garmin').Strategy;
+const GarminStrategy = require('@riderize/passport-garmin').Strategy;
 
 passport.use(new GarminStrategy({
     consumerKey: GARMIN_CONSUMER_KEY,
@@ -39,7 +39,7 @@ passport.use(new GarminStrategy({
 
 **With Typescript:**
 ```
-import strategy from 'passport-garmin';
+import strategy from '@riderize/passport-garmin';
 
 const GarminStrategy = strategy.Strategy;
 
