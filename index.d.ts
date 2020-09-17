@@ -10,6 +10,7 @@ export interface StrategyOption {
   consumerSecret: string;
   callbackURL: string;
 
+  passReqToCallback?: boolean;
   authorizationURL?: string;
   tokenURL?: string;
 }
